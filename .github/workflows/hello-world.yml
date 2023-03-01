@@ -2,6 +2,6 @@ name: hello-world
 on: push
 jobs:
   say-hello:
-  runs-on: ubuntu-latest
-  steps:
-    - run: make say-hello
+    runs-on: ubuntu-latest
+    steps:
+      - run: make say-hello
